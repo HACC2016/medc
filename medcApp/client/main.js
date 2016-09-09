@@ -10,6 +10,7 @@ import { name as Information } from '../imports/ui/components/information/inform
 import { name as ContactUs } from '../imports/ui/components/contactUs/contactUs';
 import { name as Dashboard } from '../imports/ui/components/dashboard/dashboard';
 import { name as AboutUs } from '../imports/ui/components/aboutUs/aboutUs';
+import { name as Registration } from '../imports/ui/components/registration/registration';
 
  
 angular.module('medcApp', [
@@ -22,7 +23,8 @@ angular.module('medcApp', [
   	Information,
   	ContactUs,
   	AboutUs,
-  	Dashboard
+  	Dashboard,
+  	Registration
   ])
   .config(config);
 
