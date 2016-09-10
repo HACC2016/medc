@@ -10,8 +10,7 @@ const name = 'registration';
 
 export default angular.module(name, [
   angularMeteor,
-  uiRouter,
-  'accounts.ui'
+  uiRouter
 ]).component (name, {
   template,
   controllerAs: name,

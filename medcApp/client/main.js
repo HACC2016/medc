@@ -11,8 +11,8 @@ import { name as ContactUs } from '../imports/ui/components/contactUs/contactUs'
 import { name as Dashboard } from '../imports/ui/components/dashboard/dashboard';
 import { name as AboutUs } from '../imports/ui/components/aboutUs/aboutUs';
 import { name as Registration } from '../imports/ui/components/registration/registration';
+import { name as LoginPage } from '../imports/ui/components/loginPage/loginPage';
 
- 
 angular.module('medcApp', [
     angularMeteor,
     Home,
@@ -24,7 +24,8 @@ angular.module('medcApp', [
   	ContactUs,
   	AboutUs,
   	Dashboard,
-  	Registration
+  	Registration,
+		LoginPage
   ])
   .config(config);
 
